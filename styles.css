@@ -12,7 +12,7 @@
   }
 
   h1 {
-    color: rgb(46, 44, 44);
+    color: rgb(114, 106, 106);
     text-align: center;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -20,37 +20,44 @@
   }
 
   h2 {
-    color: rgb(46, 44, 44);
+    color: rgb(114, 106, 106);
     font-family: Arial;
   }
 
-  .div-container {
+  /*.div-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     gap: 5px;
-  }
+  }*/
 
   #navbar {
-    width: 750px;
-    padding: 20px;
+    position: fixed;
+    float: left;
+    width: 270px;
+    padding: 10px;
     font-size: 18px;
   }
 
+  .section-div {
+    float: right;
+    width: 960px;
+  }
+
   .nav-ul {
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     list-style-type: none;
     padding: 4px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    margin-top: 32px;
-    overflow: scroll;
+    margin-top: -16px;
 
   }
 
   .nav-ul a {
-    width: auto;
+    width: 100%;
     height: 25px;
     text-decoration: none;
     color: rgb(82, 77, 77);
@@ -59,12 +66,14 @@
 
   .nav-ul li {
     width: 100%;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 16px;
-    border-top: 1px solid grey;
+    border-top: 1px solid black;
+
+
   }
 
-  .nav-header li a {
+  .nav-header li {
     font-size: 18px;
     border: none;
   }
@@ -106,4 +115,17 @@
     #navbar  {padding-top: 15px;}
     #navbar a {font-size: 18px;}
     }
+  }
+
+  hr {
+    color: black;
+  
+  }
+
+  .first-nav-li {
+    border: none;
+  }
+
+  .back-home {
+    text-align: center;
   }
