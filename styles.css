@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8rem;
+    color: rgb(100, 96, 96);
+  }
+
+  h1 {
+    color: rgb(46, 44, 44);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+  }
+
+  h2 {
+    color: rgb(46, 44, 44);
+    font-family: Arial;
+  }
+
+  .div-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+
+  #navbar {
+    width: 750px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .nav-ul {
+    width: 20%;
+    list-style-type: none;
+    padding: 4px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-top: 32px;
+    overflow: scroll;
+
+  }
+
+  .nav-ul a {
+    width: auto;
+    height: 25px;
+    text-decoration: none;
+    color: rgb(82, 77, 77);
+    padding: 14px 16px;
+  }
+
+  .nav-ul li {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 16px;
+    border-top: 1px solid grey;
+  }
+
+  .nav-header li a {
+    font-size: 18px;
+    border: none;
+  }
+
+  .first-sec-ul {
+    margin-left: 60px;
+  }
+
+  .main-section p {
+    margin: 15px 15px 15px 0;
+  }
+
+  .last-li {
+  margin-bottom: 16px;
+  }
+
+  code {
+    display: inline-block;
+    width: 800px;
+    font-family: monospace;
+    background-color: rgb(241, 237, 237);
+    margin-left: 50px;
+    padding: 10px;
+  }
+
+  .navbar header {
+    margin-bottom: 10px;
+  }
+
+  nav ul header.nav-header {
+    font-size: 18px;
+    border: none;
+  }
+
+  @media screen and (max-height: 450px) {
+    .div-container {
+    display: flex;
+    flex-direction: column;
+    #navbar  {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
+    }
+  }
